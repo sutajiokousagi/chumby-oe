@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: bitbake
+Version: 1.12.0
+Summary: BitBake build tool
+Home-page: http://developer.berlios.de/projects/bitbake/
+Author: BitBake Development Team
+Author-email: bitbake-dev@lists.berlios.de
+License: GPLv2
+Description: BitBake is a simple tool for the execution of tasks. It is derived from Portage, which is the package management system used by the Gentoo Linux distribution. It is most commonly used to build packages, as it can easily use its rudimentary inheritance to abstract common operations, such as fetching sources, unpacking them, patching them, compiling them, and so on.  It is the basis of the OpenEmbedded project, which is being used for OpenZaurus, Familiar, and a number of other Linux distributions.
+Platform: UNKNOWN
+Requires: ply
+Requires: progressbar
