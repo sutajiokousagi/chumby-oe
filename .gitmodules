@@ -1,0 +1,6 @@
+[submodule "openembedded"]
+	path = openembedded
+	url = http://git.chumby.com.sg/git/openembedded.git
+[submodule "meta-chumby"]
+	path = meta-chumby
+	url = http://git.chumby.com.sg/git/meta-chumby.git
