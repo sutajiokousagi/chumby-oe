@@ -1,4 +1,12 @@
-meta-chumby-private
 *.pyc
+
+*~
+*.lock
+*.swp
+*.swo
+*.out
+*.o
+
 sources/
 output*
+*-private
