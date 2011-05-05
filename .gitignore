@@ -1,4 +1,4 @@
 meta-chumby-private
-bitbake-1.12.0/lib/*.pyc
+*.pyc
 sources/
 output*
