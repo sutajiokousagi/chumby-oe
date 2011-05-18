@@ -24,9 +24,10 @@ while [ "x${MACHINE}" = "x" ]
 do
     echo "Chose a platform for OE:"
     echo "    1) Falconwing"
-    echo "    2) Silvermoon"
+    echo "    2) Silvermoon (chumby8)"
     echo "    3) Icecrown"
     echo "    4) Wintergrasp"
+    echo "    5) Silvermoon (NeTV)"
     echo -n "-> "
     read -n 1 T
     echo ""
@@ -36,13 +37,16 @@ do
         MACHINE=chumby-falconwing
     elif [ "x${T}" = "x2" ]
     then
-        MACHINE=chumby-silvermoon
+        MACHINE=chumby-silvermoon-chumby8
     elif [ "x${T}" = "x3" ]
     then
         MACHINE=chumby-icecrown
     elif [ "x${T}" = "x4" ]
     then
         MACHINE=chumby-wintergrasp
+    elif [ "x${T}" = "x5" ]
+    then
+        MACHINE=chumby-silvermoon-netv
     fi
 done
 DISTRO=angstrom-2010.x
