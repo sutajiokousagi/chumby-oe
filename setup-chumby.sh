@@ -52,6 +52,11 @@ done
 DISTRO=angstrom-2010.x
 
 BB_ENV_EXTRAWHITE="MACHINE DISTRO TOPDIR"
+
+if [ "x${FEED_DEPLOYDIR_BASE_URI}" != "x" ]; then
+  BB_ENV_EXTRAWHITE="${BB_ENV_EXTRAWHITE} FEED_DEPLOYDIR_BASE_URI"
+fi
+
 export MACHINE DISTRO BB_ENV_EXTRAWHITE TOPDIR
 export PATH=${TOPDIR}/bitbake-1.12.0/bin:${PATH}
 #unalias bitbake 2> /dev/null
